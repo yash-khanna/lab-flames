@@ -4,8 +4,9 @@
 
 ## A Quick Introduction
 
+We all would have heard or in fact played the FLAMES game atleast once. Logically the game doesn't make a lot of sense, but it definitely is a lot of fun. And hence we thought, why not build it with the help of our ProGrads? 
 
-
+(If you haven't heard of this game before, then quickly google it up & understand before you proceed)
 
 ## What should you do
 ```
@@ -35,7 +36,7 @@ Right - click on the project -> go to Run as -> Run on server. You can check the
 ## Testing
 Right - click on the project -> go to Run as -> Junit Test. All the testcases must be evaluated.
 
-## Progression - 1
+## Progressions
 FlamesCheckService has a method findFlames to find the flames between two names
 char findFlames(String name1, String name2) takes two strings as arguments
 Your task is to calculate the flames value and return the corresponding character as output 
