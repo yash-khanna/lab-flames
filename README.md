@@ -51,7 +51,7 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 1. ***Input consist of 2 strings - name1 and name2***
 
 ## Output Format
-1 ***Output is an integer that corresponds to the flames value***
+1 ***Output is an character that corresponds to the 'F','L','A','M','E','S' value***
 
 
 ## Progression - 1 
@@ -59,34 +59,16 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 2. ***Create a public class called FlamesCheckService.***
 
 ## Progression - 2
-1. ***Create a public method called findYourBrainType of type String inside PersonalityCalculator.***
-2. ***Your method takes String options as an input and returns a String as output as per the output format specified.***
-3. ***Your method should invoke another method findAnswers to convert the options to an integer array.***
-4. ***Calculate the braintype as per the formula given.***
-5. ***Return the output as a string.***
+1. ***Create a public method called findFlames of type character***
+2. ***Your method takes 2 Strings as input and returns a character as output.***
+3. ***Calculate the FLAMES and return a character.***
 
-## Progression - 3
-1. ***Create a method called findAnswers of type int[] inside PersonalityCalculator.***
-2. ***Your method takes String options as in input and returns an array of integers as output.***
-3. ***The value of array corresponds to the answers to each questions.***
-4. ***findAnswer method is invoked from findYourBrainType method.***
-5. ***Return the integer array to findYourBrainType method.***
-
-## Progression - 4
-1. ***Create an object for PersonalityCalculator inside Java Resources - src - controller - PersonalityController.***
-2. ***Call the findYourBrainType method with the object created.***
-3. ***Pass the String options from the doPost method to the findYourBrainType method as argument.***
-4. ***Create a String variable as message and Store the return value from findYourBrainType.***
-5. ***Pass the message to request.setAttribute("message",message);***
-6. ***There you go. You are ready to run your application and see which is your braintype.***
-
-## Bonus Challenge
-1. ***Print each answers in the console as per the format given below.***
-2. ***Print the total score.***
-3. ***Print the brain type in double quotes".***
+## Bonus
+1. ***Print the names in console***
+2. ***Print the love character and the corresponding match***
 ```
-The answer for question - 1 is 3.
-Your total score is 54.
-You are "left brained"
+Your name is ProGrads.
+Your partner name is FACEPrep.
+You two are "LOVERS"
 ```
 Happy Coding ProGrad ❤️
