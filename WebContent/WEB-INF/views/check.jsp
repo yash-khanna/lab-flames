@@ -39,6 +39,6 @@ Find it out with FLAMES
 </div> -->
  </main>
 
-
+<footer class="footer"><p class="footer-text">Made with <img src="./assets/prograd-heart.svg"> by ProGrad</p></footer>
 </body>
 </html>
