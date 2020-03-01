@@ -42,7 +42,7 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 3. ***You can check the output in eclipse browser or in your browser.***
 
 ## Testing
-1. ***Uncomment the code inside Java Resources - src -testing - TestPersonalityCalculator class file.***
+1. ***Uncomment the code inside Java Resources - src -testing - TestFlamesCheckService class file.***
 2. ***Right - click on the project***
 3. ***Go to Run as -> Junit Test.*** 
 4. ***All the testcases must be evaluated.***
